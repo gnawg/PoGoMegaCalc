@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Megasize Me</title>
+	<script type="module">
+		import {render, html, svg} from 'https://unpkg.com/uhtml?module';
+		// render(document.body, html`<h1>Hello 👋 µhtml</h1>`);
+		render(document.getElementById('placeholder'), html`
+			<div>
+				Javascript enabled!
+			</div>
+		`);
+	</script>
+</head>
+<body>
+	<div id="placeholder">This form uses Javascript. Sorry!</div>
+</body>
+</html>
